@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ContactController {
 
-    @GetMapping("/my-contact")
+    @GetMapping("/contact")
     public String getContactDetails() {
         return "Contact details";
     }

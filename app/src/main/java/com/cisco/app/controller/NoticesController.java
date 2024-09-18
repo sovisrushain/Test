@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class NoticesController {
 
-    @GetMapping("/my-notices")
+    @GetMapping("/notices")
     public String getNoticeDetails() {
         return "Notice details";
     }
